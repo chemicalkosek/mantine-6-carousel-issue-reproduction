@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import { Carousel } from '@mantine/carousel';
 import { Drawer } from '@mantine/core';
-import styles from '@/styles/Home.module.css';
 
 export default function Home() {
   return (
@@ -12,7 +11,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
+      <main>
         <Drawer opened>
           <Carousel slideSize="70%" slideGap="md" className="">
             <Carousel.Slide key="Slide 2">
