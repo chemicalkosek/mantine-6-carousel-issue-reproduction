@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Drawer opened>
-          <Carousel slideSize="70%" slideGap="md">
+          <Carousel slideSize="70%" slideGap="md" className="">
             <Carousel.Slide key="Slide 2">
               <div className="bg-red p-12">
                 <div>Hello</div>
@@ -35,6 +35,34 @@ export default function Home() {
             </Carousel.Slide>
             <Carousel.Slide key="Slide 5">
               <div className="bg-red p-12">
+                <div>Hello</div>
+                <div>Hello</div>
+              </div>
+            </Carousel.Slide>
+          </Carousel>
+        </Drawer>
+        <Drawer opened position="right">
+          <Carousel slideSize="70%" slideGap="md" className="mt-8">
+            <Carousel.Slide key="Slide 2">
+              <div className="bg-red">
+                <div>Hello</div>
+                <div>Hello</div>
+              </div>
+            </Carousel.Slide>
+            <Carousel.Slide key="Slide 3">
+              <div className="bg-red">
+                <div>Hello</div>
+                <div>Hello</div>
+              </div>
+            </Carousel.Slide>
+            <Carousel.Slide key="Slide 4">
+              <div className="bg-red">
+                <div>Hello</div>
+                <div>Hello</div>
+              </div>
+            </Carousel.Slide>
+            <Carousel.Slide key="Slide 5">
+              <div className="bg-red">
                 <div>Hello</div>
                 <div>Hello</div>
               </div>
